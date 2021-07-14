@@ -1,0 +1,240 @@
+* {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#lblLogin {
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+#header, footer {
+    background-color: #191927;
+    color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+#header, #div1, #emptyDiv {
+    height: 70px;
+}
+
+#header a:hover {
+    opacity: 0.8;
+}
+
+.errorLabel {
+    color: salmon;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header a {
+    color: white;
+}
+
+/*Inside the header div*/
+
+#header img {
+    width: 118px;
+    height: 70px;
+}
+
+i {
+    font-size: 25px;
+}
+
+.header-content {
+    position: relative;
+    bottom: 23px;
+}
+
+.clear {
+    clear: both;
+}
+
+#cart {
+    text-align: center;
+    position: absolute;
+    right: 150px;
+    top: 0px;
+    background-color: #8eb5ef;
+    padding: 20px;
+    min-width: 140px;
+    height: 30px;
+}
+
+/*End of the header div*/
+
+/*Footer*/
+
+footer {
+    font-size: smaller;
+    padding: 7px;
+}
+
+#Copyrights, #copyfont {
+    position: relative;
+    left: 40%;
+    top: 10px;
+}
+
+#copyfont {
+    position: relative;
+    top: 12px;
+}
+
+#payment-options {
+    float: right;
+}
+
+/*End of the footer*/
+
+.container {
+    background-color: white;
+    padding: 16px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#header, footer {
+    background-color: #191927;
+    color: white;
+}
+
+#header, #div1, #emptyDiv, button#logout, button#profile {
+    height: 70px;
+}
+
+/*Inside the header div*/
+
+#header img {
+    width: 118px;
+    height: 70px;
+}
+
+i {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header a {
+    color: white;
+}
+
+#header a:hover {
+    opacity: 0.8;
+}
+
+a span {
+    font-size: 20px;
+}
+
+#profile span {
+    margin: 10px;
+}
+
+/*Drop down menu*/
+
+.drp#profileDropDown {
+    height: 30px;
+    z-index: 10000;
+    font-size: 20px;
+    background-color: #191927;
+    position: absolute;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    width: 140px;
+}
+
+.drp a {
+    text-decoration: none;
+}
+
+.drp nav {
+    font-family: monospace;
+}
+
+.drp ul {
+    background-color: #191927;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.drp li {
+    color: #fff;
+    background-color: #191927;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.drp li a {
+    color: #fff;
+}
+
+.drp li:hover {
+    background: #8eb5ef;
+    cursor: pointer;
+}
+
+.drp ul li ul {
+    background: #191927;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+.drp ul li:hover>ul, ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.drp ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+#contactUs {
+    position: absolute;
+    left: 5px;
+    padding: 10px;
+}
+
+#contactUs a {
+    color: white;
+}
+
+.fa-twitter:hover {
+    color: #3c98f7;
+}
+
+.fa-facebook-square:hover {
+    color: #0543a6;
+}
+
+.fa-instagram:hover {
+    color: #f529f5;
+}

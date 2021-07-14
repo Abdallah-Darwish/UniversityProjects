@@ -1,0 +1,68 @@
+#zCode {
+    width: 100px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=number], input[type=date] {
+    height: 40px;
+    width: 300px;
+}
+
+#editHeader {
+    text-align: center;
+    color: #8eb5ef;
+    border-bottom: 1px solid #8eb5ef;
+}
+
+#billingAddress, #userInfo {
+    color: #8eb5ef;
+    border: 1px solid #8eb5ef;
+    margin: 10px;
+    padding: 10px;
+    width: 310px;
+    text-align: center;
+    float: left;
+}
+
+.error-par {
+    color: salmon;
+    margin: 6px auto;
+}
+
+form button {
+    width: 332px;
+    height: 50px;
+    background-color: #8eb5ef;
+    border: none;
+    display: block;
+    margin: 10px auto;
+}
+
+form button:hover {
+    background-color: white;
+    border: 1px solid #8eb5ef;
+}
+
+#ccInfo h3, #info h3 {
+    color: #8eb5ef;
+    text-align: center;
+}
+
+#ccInfo {
+    float: left;
+    border: 1px solid #8eb5ef;
+    margin: 10px;
+    padding: 10px;
+    width: 310px;
+}
+
+#info {
+    float: left;
+    border: 1px solid #8eb5ef;
+    margin: 10px;
+    padding: 10px;
+    width: 140px;
+}
+
+.fa-address-card {
+    font-size: 35px;
+}

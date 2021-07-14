@@ -1,0 +1,150 @@
+/*The Main div designs*/
+
+#itemMain {
+    height: 1500px;
+    background-color: rgba(239, 239, 239, 0.91);
+}
+
+/*Any other div in the page*/
+
+#theItem, #price-buy, #productDesc, #aboutWriter, #ratingDiv, #customerInfo, #detailsInfo, #categoriesDiv {
+    position: relative;
+    top: 30px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background-color: white;
+}
+
+/*the Ad div*/
+
+#ad {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background-color: white;
+    position: relative;
+    top: 16px;
+    text-align: center;
+}
+
+/*The price div*/
+
+#price-buy {
+    float: right;
+    width: 27%;
+    margin-right: 10px;
+    height: 300px;
+    text-align: center;
+}
+
+/*The div that has everything book's pic,type of cover,....*/
+
+#theItem {
+    float: left;
+    margin-left: 10px;
+    width: 70%;
+    height: 500px;
+}
+
+#theItem img {
+    margin: 10px;
+    height: 300px;
+    float: left;
+}
+
+#theItem span {
+    font-size: 16px;
+}
+
+/*The price*/
+
+#pricePar {
+    text-align: center;
+    color: #2a597c;
+}
+
+.add-to-cart, .add-to-wish-list {
+    width: 60%;
+    height: 35px;
+    margin: 7px;
+}
+
+.add-to-wish-list {
+    background-color: #8eb5ef;
+    color: white;
+    border: 1px solid #8eb5ef;
+}
+
+.add-to-cart {
+    background-color: white;
+    color: #8eb5ef;
+    border: 1px solid #8eb5ef;
+}
+
+/*Let's call it headers*/
+
+#productDesc h5, #pricePar, #aboutWriter h5, #theItem h2, #ratingDiv h5, #categoriesDiv h5 {
+    border-bottom: 3px solid rgba(239, 239, 239, 0.91);
+    margin: 10px;
+    font-size: 27px;
+    font-weight: 100;
+    color: #8eb5ef;
+}
+
+/*The product description's div*/
+
+#productDesc table {
+    width: 100%;
+    padding: 10px;
+}
+
+/*About the writer div*/
+
+#aboutWriter p, #aboutWriter h5, #categoriesDiv h5, #categoriesDiv p {
+    padding: 7px;
+}
+
+#categoriesDiv p a {
+    text-decoration: underline;
+    color: blue;
+}
+
+#productDesc, #aboutWriter, #ad, #ratingDiv, #categoriesDiv {
+    margin: 10px;
+}
+
+/*The Rating styles*/
+
+.stars1 {
+    color: #dcd7d7;
+    font-size: 20px;
+}
+
+.stars1:hover {
+    color: #efe09e;
+}
+
+.stars2 {
+    color: #ffd800;
+    font-size: 20px;
+}
+
+/*Rating Div*/
+
+#ratingDiv {
+    padding: 10px;
+    background-color: white;
+}
+
+meter::-webkit-meter-bar {
+    background: rgba(239, 239, 239, 0.91);
+}
+
+meter::-webkit-meter-optimum-value {
+    background: linear-gradient(to bottom, #ffd800, #ffd800);
+}
+
+meter {
+    width: 400px;
+}
+
+#meters meter {
+    margin-left: 12px;
+}

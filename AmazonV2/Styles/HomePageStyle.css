@@ -1,0 +1,20 @@
+#search input {
+    width: 300px;
+    padding: 15px;
+    position: absolute;
+    left: 210px;
+    bottom: 3px;
+    border: 2px solid #8eb5ef;
+    border-radius: 52px;
+}
+
+#search {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    height: 120px;
+}
+
+#div1, #middle {
+    width: 74%;
+}

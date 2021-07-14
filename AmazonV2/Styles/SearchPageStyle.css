@@ -1,0 +1,113 @@
+div#searchName, div#ageRange, div#priceRange, div#orderBy {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.49);
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    float: left;
+    color: #8eb5ef;
+    padding: 10px;
+}
+
+div#searchName input, div#ageRange input, div#priceRange input, div#orderBy select {
+    height: 30px;
+    width: 300px;
+    border: 1px solid #8eb5ef;
+}
+
+#Main {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(239, 239, 239, 0.91);
+}
+
+#middle, #Categories, #recommends {
+    background-color: white;
+    float: left;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    margin-left: 10px;
+}
+
+#Categories:first-child {
+    color: #8eb5ef;
+}
+
+#Categories ul {
+    list-style: none;
+    margin-right: 6px;
+}
+
+#Categories ul li {
+    border-bottom: 1px solid rgba(222, 218, 218, 0.78);
+    padding: 5px;
+}
+
+#Categories ul li:hover {
+    background-color: rgba(142, 181, 239, 0.63);
+}
+
+#Categories div, #div1 {
+    font-size: 30px;
+    text-align: center;
+    color: #8eb5ef;
+}
+
+#Categories {
+    margin: 10px;
+    height: 440px;
+    width: 300px;
+    overflow-y: scroll;
+}
+
+h2 {
+    text-align: center;
+    color: #8eb5ef;
+}
+
+div#ageRange, div#priceRange {
+    position: relative;
+    bottom: 298px;
+    width: 505px;
+}
+
+#words {
+    margin: 10px 20px 10px 10px;
+    height: 420px;
+    width: 16%;
+    float: right;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.49);
+    background-color: white;
+    text-align: center;
+    color: #8eb5ef;
+    padding: 10px;
+}
+
+#words img {
+    margin: 8px;
+    width: 95%;
+}
+
+#searchResults {
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+}
+
+#searchResults h2 {
+    border-top: 1px solid #8eb5ef;
+    border-bottom: 1px solid #8eb5ef;
+}
+
+form button {
+    width: 100%;
+    height: 40px;
+    background-color: #8eb5ef;
+    border: none;
+    display: block;
+    margin: 10px auto;
+}
+
+form button:hover {
+    background-color: white;
+    border: 1px solid #8eb5ef;
+}

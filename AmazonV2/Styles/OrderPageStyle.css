@@ -1,0 +1,65 @@
+h2 {
+    color: #8eb5ef;
+}
+
+.orderId {
+    border: 2px solid #8eb5ef;
+    margin: 5px auto;
+    text-align: center;
+}
+
+#orderInfoContainer {
+    margin: 5px auto;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.order-info-table {
+    text-align: left;
+    font-size: 105%;
+}
+
+.order-info-name-cell {
+    font-weight: bold;
+}
+
+#orderItemsContainer {
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.order-item-row {
+    text-align: left;
+}
+
+.order-items-header {
+    background-color: #8eb5ef;
+    color: white;
+}
+
+.order-item-row:nth-child(2n) {
+    background-color: #d8e2f0;
+}
+
+.order-item-row:nth-child(2n + 1) {
+    background-color: #8eb5ef;
+}
+
+.order-item-text {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.order-item-row:nth-child(2n) .order-item-text {
+    color: #191927;
+}
+
+.order-item-row:nth-child(2n+1) .order-item-text {
+    color: white;
+}
+
+/*To fill the whole cell*/
+
+.order-item-row img {
+    display: block;
+}

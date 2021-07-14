@@ -1,0 +1,83 @@
+#banner {
+    text-align: center;
+    margin-right: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    background-image: url("../Images/Books2.jpg");
+    border: 3px solid #f1f1f1;
+}
+
+.wide-label-cell {
+    width: 15%;
+}
+
+.label-cell {
+    width: 10%;
+}
+
+.input-table {
+    width: 100%;
+}
+
+.error-cell {
+    color: salmon;
+    width: 30%;
+}
+
+.input-table input:not([type="checkbox"]), .input-table select, .input-table button {
+    width: 100%;
+    padding: 12px 20px;
+    padding-top: 8px;
+    display: inline-block;
+    border: 1px solid #8eb5ef;
+    border-radius: 52px;
+    box-sizing: border-box;
+}
+
+button#btnLogin, button#btnRegister {
+    background-color: #8eb5ef;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#btnLogin:hover {
+    opacity: 0.8;
+}
+
+span.forgot, #remember {
+    margin-left: 20px;
+    text-align: right;
+}
+
+span.forgot a {
+    text-decoration: none;
+    color: black;
+}
+
+span.forgot a:hover {
+    color: red;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span .forgot {
+        display: block;
+        float: none;
+    }
+}
+
+#register {
+    float: right;
+}
+
+#register a:hover {
+    color: #8eb5ef;
+}

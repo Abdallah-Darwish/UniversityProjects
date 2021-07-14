@@ -1,0 +1,96 @@
+#mainCart {
+    height: 1000px;
+}
+
+#mainCart h2 {
+    border-bottom: 3px solid rgba(239, 239, 239, 0.91);
+    border-top: 3px solid rgba(239, 239, 239, 0.91);
+    color: #8eb5ef;
+}
+
+.orderId {
+    border: 2px solid black;
+    margin: 5px auto;
+    text-align: center;
+}
+
+#orderInfoContainer {
+    margin: 5px auto;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.error-cell {
+    color: salmon;
+    max-width: 200px;
+}
+
+.order-info-table {
+    text-align: center;
+    font-size: 105%;
+}
+
+.order-info-name-cell {
+    font-weight: bold;
+}
+
+#orderItemsContainer {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.order-item-row {
+    text-align: left;
+}
+
+.order-items-header {
+    background-color: #8eb5ef;
+    color: white;
+}
+
+.order-item-row td {
+    border-bottom: 1px solid #8eb5ef;
+}
+
+/*To fill the whole cell*/
+
+.order-item-row img {
+    display: block;
+}
+
+button#checkout {
+    background-color: white;
+    border: 1px solid #8eb5ef;
+    border-radius: 52px;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+button#checkout:hover {
+    background-color: #8eb5ef;
+}
+
+button.remove {
+    border: none;
+    background-color: white;
+}
+
+.x {
+    color: #8eb5ef;
+}
+
+.books {
+    width: 300px;
+}
+
+#checkOutDiv {
+    text-align: center;
+    position: absolute;
+    top: -30px;
+    right: 20px;
+    width: 320px;
+}

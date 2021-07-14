@@ -1,0 +1,47 @@
+#mainTitle {
+    text-align: center;
+    color: #8eb5ef;
+}
+
+.order {
+    height: 170px;
+    width: 980px;
+    border: 1px solid #8eb5ef;
+    margin: 10px auto;
+}
+
+#history .orderDetails {
+    margin: 10px;
+    float: left;
+}
+
+.orderDetails p {
+    color: #8eb5ef;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.orderDetails span {
+    font-size: small;
+}
+
+.orderDetails p a {
+    color: #8eb5ef;
+    font-size: large;
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+}
+
+.orderDetails p a:hover {
+    text-decoration: underline;
+}
+
+.total {
+    color: #8eb5ef;
+    font-size: x-large;
+    float: right;
+    position: relative;
+    top: 55px;
+    margin: 10px;
+}
