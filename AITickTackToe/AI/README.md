@@ -1,0 +1,1 @@
+This directory contains AI calculations [engine]() and [rendering]() code seperate from any game or application so it can be used for other applications or games.

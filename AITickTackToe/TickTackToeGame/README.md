@@ -1,0 +1,1 @@
+This directory contains AI calculations engine and rendering code specifically for the TickTackToe game, using the abstract [AI engine]().
