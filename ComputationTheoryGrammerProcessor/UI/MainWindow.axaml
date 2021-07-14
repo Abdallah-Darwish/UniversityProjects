@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Class="UI.MainWindow"
+        Title="UI"
+        MinWidth="300"
+        MinHeight="600"
+        MaxWidth="300"
+        MaxHeight="600"
+        >
+        <StackPanel Margin="20" Spacing="5">
+                <!-- <TextBox Text="ε" IsReadOnly="True" ToolTip.Tip="Use this to copy the epsilon"/> -->
+                <Label Content="Alphabet"/>
+                <TextBox Name="txtAlphabet" ToolTip.Tip="The grammar alphabet separated by a space"/>
+                <CheckBox Name="chkEliminateExtra" Content="Remove Extra Rules" IsChecked="False" ToolTip.Tip="Remove the rules that can't be reached from the starting symbol"/>
+                <Label Content="Grammar"/>
+                <TextBox Name="txtGrammar" ToolTip.Tip="Grammar rules, one rule per-line, separate LHS from RHS by =>, separate RHS by |" Height="200" AcceptsReturn="True"/>
+                <Button Name="btnParse" Content="Parse"/>
+                <DataGrid Name="grdRules" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <DataGrid.Columns>
+                                <DataGridTextColumn Header="Rule" Binding="{Binding Rule, Mode=OneTime}" />
+                                <DataGridTextColumn Header="First" Binding="{Binding First, Mode=OneTime}" />
+                                <DataGridTextColumn Header="Follow" Binding="{Binding Follow, Mode=OneTime}" />
+                        </DataGrid.Columns>
+                </DataGrid>
+               
+        </StackPanel>
+</Window>
