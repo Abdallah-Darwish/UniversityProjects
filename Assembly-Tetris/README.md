@@ -1,4 +1,4 @@
-## Course: Computer Organization and Assembly Language.
+# Course: Computer Organization and Assembly Language.
 
 ## Assignment Description
 Build a functional console based tetris game.
