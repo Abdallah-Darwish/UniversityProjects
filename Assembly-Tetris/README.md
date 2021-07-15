@@ -11,7 +11,7 @@ You can modify number of rows and columns in lines 8 and 9 in [tetris.asm](https
 - [Nasm](https://www.nasm.us/)
 
 ## Running
-- Execute [build.py](https://github.com/Abdallah-Darwish/UniversityProjects/blob/main/Assembly-Tetris/build.py) to build the game
+- Run [build.py](https://github.com/Abdallah-Darwish/UniversityProjects/blob/main/Assembly-Tetris/build.py) to build the game
 - Run the game, you can use keys (A S D) to move the piece and (W) to rotate it.
 
 ## Screenshots
