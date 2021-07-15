@@ -14,4 +14,4 @@ Run `dotnet run` inside the project folder.
 
 ## Screenshots
 ![Show case](https://github.com/Abdallah-Darwish/UniversityProjects/raw/main/AITickTackToe/Screenshots/ShowCase.gif)
-![Decision tree](https://github.com/Abdallah-Darwish/UniversityProjects/raw/main/AITickTackToe/Screenshots/DecisionTree.gif)
+![Decision tree](https://github.com/Abdallah-Darwish/UniversityProjects/raw/main/AITickTackToe/Screenshots/DecisionTree.png)
