@@ -9,8 +9,12 @@ The program uses [MiniMax](https://en.wikipedia.org/wiki/Minimax) algorithm and 
 ## Requiremnts
 - [Dotnet 5 Sdk](https://dotnet.microsoft.com/download/dotnet/5.0).
 
+
 ## Running
 Run `dotnet run` inside the project folder.
+
+## Release Date
+01/January/2021
 
 ## Screenshots
 ![Show case](https://github.com/Abdallah-Darwish/UniversityProjects/raw/main/AITickTackToe/Screenshots/ShowCase.gif)

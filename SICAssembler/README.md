@@ -9,5 +9,8 @@ Build a program to preform pass one and pass two in pages 53 and 54 from [System
 ## Running
 Execute `dotnet run` inside the project folder.
 
+## Release Date
+01/June/2021
+
 ## Screenshots
 ![Show case](https://github.com/Abdallah-Darwish/UniversityProjects/blob/main/SICAssembler/Screenshot.png)

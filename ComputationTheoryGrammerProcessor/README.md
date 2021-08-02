@@ -12,6 +12,9 @@ Write a program to preform the following operations on a grammer:
 ## Running
 Execute `dotnet run` inside [UI](https://github.com/Abdallah-Darwish/UniversityProjects/tree/main/ComputationTheoryGrammerProcessor/UI) folder.
 
+## Release Date
+01/May/2019
+
 ## Screenshots
 ![Show case 1](https://github.com/Abdallah-Darwish/UniversityProjects/blob/main/ComputationTheoryGrammerProcessor/Screenshots/ShowCase0.png)
 ![Show case 2](https://github.com/Abdallah-Darwish/UniversityProjects/blob/main/ComputationTheoryGrammerProcessor/Screenshots/ShowCase1.png)
